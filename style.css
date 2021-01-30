@@ -1,0 +1,74 @@
+header{
+    width: 1000px;
+    height: 50px;
+    background-color: blue;
+    color: yellow;
+    font-family: 'PottaOne';
+    text-align: center;
+    font-size: 2rem;
+
+}
+@font-face {
+    font-family: PottaOne;
+    src: url(fuentes/PottaOne-Regular.ttf);
+}
+
+p.izquierda {
+    width: 350px;
+    background-color: rgb(60, 151, 136);
+    color: white;
+    text-align: left;
+    position: relative;
+    line-height: 150%;
+}
+section.derecha{
+    position: relative;
+    bottom: 185px;
+    left: 350px;
+    line-height: 100%;
+    width: 1100px;
+    height: 0px; /* Esto lo pongo para corregir el espacio entre un section y otro*/
+}
+
+section.derecha p{
+    color: yellow;
+    
+}
+span.negro{
+    background-color: black;
+}
+p.salto{
+    width: 1000px;
+    background-color: blue;
+    font-size: 1rem;
+}
+section.parrafo2{
+    width: 1450px;
+}
+section.parrafo2 p{
+    font-family: 'Coda Caption'; 
+}
+p.parrafo2{
+    font-size: 2rem;
+}
+p.saltocentrado{
+    text-align: center;
+    
+}
+
+section.parrafo3{
+    position: relative;
+    bottom: 30px;
+    width: 1450px;
+}
+section.parrafo3 p{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: Yusei Magic;
+    src: url(fuentes/YuseiMagic-Regular.ttf);
+}
